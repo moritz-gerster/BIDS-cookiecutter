@@ -34,9 +34,9 @@ Install your new project in your local conda environment with:
 
 pip install -e .
 
-You will need to manually add data to .gitignore to prevent it from syncing to
-version control.
+git init
 
-Don't forget to sync to GitHub. Have fun!
+Publish repository git GitHub!
+
 """
 print(help)
