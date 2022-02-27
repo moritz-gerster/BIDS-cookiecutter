@@ -10,7 +10,7 @@ This cookiecutter organizes code and data according to the Brain Imaging Data St
 - **tests**: tests
 - **results**: plots, tables, ...
 
-CHANGES: changes to the dataset
+- **CHANGES**: documents changes to the dataset
 
 ### References:
 
