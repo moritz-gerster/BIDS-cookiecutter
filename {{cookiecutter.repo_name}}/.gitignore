@@ -1,7 +1,11 @@
 # Ignore data folders
-rawdata/
-sourcedata/
-derivatives/
+rawdata/*
+sourcedata/*
+derivatives/*
+
+!rawdata/README.md
+!sourcedata/README.md
+!derivatives/README.md
 # results/
 
 # Mac Stuff
