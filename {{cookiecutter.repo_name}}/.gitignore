@@ -1,3 +1,5 @@
+annotations/
+
 # Ignore data folders
 rawdata/*
 sourcedata/*
