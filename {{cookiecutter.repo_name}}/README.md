@@ -1,6 +1,6 @@
 # {{cookiecutter.project_name}}
 
-This cookiecutter organizes code and data according to the Brain Imaging Data Structure [1-4].
+This cookiecutter organizes code and data according to the Brain Imaging Data Structure (BIDS) [1-4].
 
 - **sourcedata**: data as collected/received
 - **rawdata**: bidsified sourcedata
