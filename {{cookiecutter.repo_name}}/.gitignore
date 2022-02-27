@@ -1,13 +1,3 @@
-derivatives/
-derivatives*/
-
-# Do not ignore annotation files
-!derivatives/annotations/*
-
-
-
-
-
 # Ignore data folders
 rawdata/*
 sourcedata/*
