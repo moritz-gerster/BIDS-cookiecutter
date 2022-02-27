@@ -1,3 +1,0 @@
-# MNE-Annotations
-# orig_time : 2020-07-30 09:23:31   
-# onset, duration, description
