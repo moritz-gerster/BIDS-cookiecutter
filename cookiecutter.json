@@ -1,6 +1,6 @@
 {
     "project_name": "project_name",
-    "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
-    "package_name": "src",
+    "repo_name": "{{ cookiecutter.project_name.replace(' ', '_') }}",
+    "package_name": "scripts",
     "description": "A truly neutral research cookie cutter"
 }
