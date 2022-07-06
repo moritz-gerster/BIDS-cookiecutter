@@ -32,7 +32,7 @@ conda env export > environment.yml
 
 Install your new project in your local conda environment with:
 
-pip install -e
+pip install -e .
 
 git init
 
