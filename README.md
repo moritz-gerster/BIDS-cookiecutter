@@ -1,6 +1,8 @@
 # BIDS-cookiecutter
 A cookiecutter for neuroscience research following the Brain Imaging Data Struture (BIDS) [1-4].
 
+`pip install cookiecutter`
+
 Run via `cookiecutter gh:moritz-gerster/BIDS-cookiecutter`
 
 ### References:
