@@ -2,6 +2,7 @@
 rawdata/*
 sourcedata/*
 derivatives/*
+results/*
 
 !rawdata/README.md
 !sourcedata/README.md
