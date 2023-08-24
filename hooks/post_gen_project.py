@@ -15,28 +15,26 @@ _____________________________________________________________________________
  (   .-'   )-._-:  /        \(/\'-._ `.     @|@@@@@              ..|........
   (   )  _//_/|:  /          `\()   `\_\     |/_@@               )'-._.-._.-
    ( (   \()^_/)_/             )/      \\    /                  /   /
-    )  _.-\\.\(_)__._.-'-.-'-.//_.-'-.-.)\-'/._                /       
-.-.-.-'   _o\ \\\     '::'   (o_ '-.-' |__\'-.-;~ ~ ~ ~ ~ ~ ~~/   /\   
+    )  _.-\\.\(_)__._.-'-.-'-.//_.-'-.-.)\-'/._                /
+.-.-.-'   _o\ \\\     '::'   (o_ '-.-' |__\'-.-;~ ~ ~ ~ ~ ~ ~~/   /\
           \ /  \\\__          )_\    .:::::::.-'\            '- - -|
-     :::''':::::^)__\:::::::::::::::::'''''''-.  \                  '- - - - 
+     :::''':::::^)__\:::::::::::::::::'''''''-.  \                  '- - - -
     :::::::  '''''''''''   ''''''''''''':::. -'\  \       C. SWANSIGER
 _____':::::_____________________________________\__\_________________________
 
-If you have not done so already, create a conda environment for your new 
-project with:
+If you have not done so already, create a conda environment for your new
+project by editing the environment.yml file. Replace NAME with
+{{cookiecutter.repo_name}}. Then run:
 
 cd {{cookiecutter.repo_name}}
-conda create --name {{cookiecutter.repo_name}} python=3.8
+conda env create -f environment.yml
 conda activate {{cookiecutter.repo_name}}
-conda env export > environment.yml
-
-Install your new project in your local conda environment with:
-
-pip install -e .
 
 git init
 
 Publish repository git GitHub!
 
+Did everything work out? If not, please edit these instructions. Last updated
+August 24th, 2023.
 """
 print(help)

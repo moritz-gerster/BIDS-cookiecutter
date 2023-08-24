@@ -1,0 +1,9 @@
+name: NAME
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - mne-bids
+  - pip
+  - pip:
+    - -e .
